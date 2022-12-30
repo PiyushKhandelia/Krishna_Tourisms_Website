@@ -1,3 +1,8 @@
+let menuToggle = document.querySelector(".toogle");
+menuToggle.onclick = function() {
+    menuToggle.classList.toggle('active')
+}
+
 //add active class in selected list item
 let list = document.querySelectorAll('.list');
 for (let i = 0; i<list.length; i++) {
