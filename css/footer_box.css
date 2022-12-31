@@ -1,0 +1,8 @@
+#box1{
+    width:950px;
+    height:300px;
+    margin:10px;
+    padding:10px;
+    background-image: linear-gradient(to bottom right, #ff0000, #b30000, #660000, #000000, rgb(255, 122, 89));
+    border-radius: 30px;
+}
