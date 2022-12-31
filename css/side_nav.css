@@ -96,7 +96,7 @@
     min-width: 60px;
     height: 60px;
     line-height: 60px;
-    /* text-align: center; */
+    text-align: center;
 }
 .navigation ul li a .icon ion-icon{
     font-size: 1.5em;
