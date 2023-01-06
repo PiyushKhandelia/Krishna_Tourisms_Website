@@ -1,5 +1,32 @@
-body {
-     margin: 0px;
-     background-color:#c5d9d8;
-     min-height: 100vh;
-}
+/*Body*/
+.note {
+     width: 96%;
+     margin-left: 60px;
+     margin-bottom: 100px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-size: 20px;
+     color: #fff;
+     background-color: rgb(31, 29, 29);
+ }
+ .divider {
+     width: 100%;
+     margin-top: /*100*/200px;
+     padding-top: 2px;
+     background-color: rgb(31, 29, 29);
+ }
+ .logo_box {
+     padding-top: 15px;
+     padding-left: 75px;
+     padding-bottom: 25px;
+     font: small-caps bold 100px/150px Monotype Corsiva;
+ }
+ .logo {
+     height: 75px;
+     width: 300px;
+     margin-right: -75px;
+     background-image: url('https://piyushkhandelia.github.io/Krishna_Tourisms_Website/Images/krishna_logo2.png');
+     background-repeat: no-repeat;
+     border: none;
+     display: inline-block;
+ }

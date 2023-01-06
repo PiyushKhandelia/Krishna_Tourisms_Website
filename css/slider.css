@@ -1,3 +1,4 @@
+/*Image Carousel*/
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +6,11 @@
 }
 body {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
 }
 .slider {
     position: center;
     width: 200px;
-    height: 200px;
+    height: 225px;
     transform-style: preserve-3d;
     animation: rotate 30s linear infinite;
 }
@@ -29,7 +26,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
@@ -44,7 +41,8 @@ body {
     border-radius: 10px;
     object-fit: cover;
     transition: 2s;
+    -webkit-box-reflect: below 5px linear-gradient(transparent,transparent,#000);
 }
 .slider span:hover img{
-    transform: translateY(-50px) scale(1.2);
+    transform: translateY(-35px) scale(1.0);
 }
