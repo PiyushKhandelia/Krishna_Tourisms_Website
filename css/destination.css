@@ -1,0 +1,74 @@
+.pop {
+    text-align: center;
+    font: small-caps bold 75px/100px Georgia, serif;
+    margin-top: -100px;
+    margin-bottom: -200px;
+}
+.places{
+    text-align: center;
+    font: small-caps bold 40px/65px Georgia, serif;
+    margin-bottom: 5px;
+}
+.places_list_right {
+    float: right;
+    height: 300px;
+    width: 51%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: rgb(31, 29, 29);
+}
+.places_list_right:hover {
+    width: 85%;
+    margin-left: 60px;
+}
+.places_list_left {
+    float: left;
+    height: 300px;
+    width: 51%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    color: #fff;
+    background-color: rgb(31, 29, 29);
+}
+.places_list_left:hover {
+    width: 85%;
+    margin-right: 60px;
+}
+.image_right {
+    float: left;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(31, 29, 29);
+    margin-left: -150px;
+}
+.image_left {
+    float: right;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(31, 29, 29);
+    margin-right: -150px;
+}
+.display {
+    border-radius: 50%;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+}
+.text_heading {
+    text-align: center;
+    font: small-caps bold 30px/60px Georgia, serif;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.text_description {
+    text-align: center;
+    font: small-caps bold 15px/30px Georgia, serif;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
