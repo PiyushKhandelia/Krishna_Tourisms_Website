@@ -129,12 +129,12 @@ body {
                 position: relative;
                 transition: .5s;
             }
-            #check2:checked ~ .container .packages_list .diamond {
+            #check2:checked ~ .container .packages_list .platinum {
                 transform: scale(1);
                 opacity: 1;
                 position: relative;
             }
-            #check2:checked ~ .container .packages_list .platinum,
+            #check2:checked ~ .container .packages_list .diamond,
             #check2:checked ~ .container .packages_list .gold,
             #check2:checked ~ .container .packages_list .silver {
                 transform: scale(0);
@@ -142,12 +142,12 @@ body {
                 position: absolute;
                 transition: 0s;
             }   
-            #check3:checked ~ .container .packages_list .platinum {
+            #check3:checked ~ .container .packages_list .diamond {
                 transform: scale(1);
                 opacity: 1;
                 position: relative;
             }
-            #check3:checked ~ .container .packages_list .diamond,
+            #check3:checked ~ .container .packages_list .platinum,
             #check3:checked ~ .container .packages_list .gold,
             #check3:checked ~ .container .packages_list .silver {
                 transform: scale(0);
